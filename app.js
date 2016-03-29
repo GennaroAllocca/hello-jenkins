@@ -6,6 +6,6 @@ app.get('/', function (req, res) {
   res.send('hello Jenkins');
 });
 
-
+app.listen(process.env.PORT || 9000);
 
 module.exports = app;
